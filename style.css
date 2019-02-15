@@ -691,7 +691,10 @@ img {
     box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.1);
 }
 
-.more-service-content > img {
+.more-service-content >img {
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #4a7aec);
+    filter: opacity(.5) drop-shadow(0 0 0 #4a7aec);
+    /*: #5080ED;*/
     margin-bottom: 40px;
 }
 
